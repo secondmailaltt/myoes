@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["python312", "libGL", "libGLU", "mesa", "glib", "gtk3", "xorg.libX11", "xorg.libXext", "xorg.libXrender"]
-
-[phases.install]
-cmds = ["pip install -r requirements.txt"]
-
-[phases.start]
-cmd = "python yolo_server.py"
