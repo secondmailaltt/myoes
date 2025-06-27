@@ -1,0 +1,2 @@
+[phases.setup]
+nixPkgs = ["libGL", "libGLU", "mesa", "glib", "gtk3", "xorg.libX11", "xorg.libXext", "xorg.libXrender"]
